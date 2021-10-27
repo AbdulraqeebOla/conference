@@ -1,0 +1,250 @@
+body{
+    margin: 0;
+    font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.cont{
+    width: 100%;
+    margin: auto;
+    background-color:#293f50;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+}
+
+.column-one {
+    flex: 40%;
+    margin: 0 5px 0 230px;
+    width: 30%;
+    background: transparent;
+    text-align: left;
+    color: honeydew;
+
+}
+
+hr{
+    border-color: #648880;
+    border-width: 2px;
+    border-style: solid;
+    margin: 0;
+}
+
+.span-one{
+    font-weight: 100;
+    font-size: 48px;
+    line-height: 44px;
+    display: block;
+    margin: 45px 0 50px 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #648880;
+}
+.column-two {
+    flex: 60%;
+    margin: 0 220px 0 5px;
+    background: transparent;
+    text-align: center;
+}
+
+.span-two{
+    font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 22px;
+    display: block;
+    margin: 80px 0 0 140px;
+    color: #648880;
+    text-align: center;
+}
+
+header > div > nav{
+    margin: 30px 0;
+}
+
+nav > ul > li {
+    display: inline;
+    margin: 0 20px 50px 0; 
+    font-size: 14px;
+    font-weight: 400;  
+    font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.cont-one{
+    width: 100%;
+    /* height: 220px; */
+    margin: auto;
+    background: linear-gradient(to right, rgb(161, 211, 176), rgb(246, 241, 211));
+    background-size: cover;
+    text-align: center;
+}
+
+.span-three{
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 44px;
+    display: block;
+    padding: 50px 0 0 0;
+    color: #648880;
+}
+
+.span-four{
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 33px;
+    display: block;
+    padding: 30px 230px 50px 230px;
+    color: #888888;
+}
+
+.cont-two{
+    width: 70%;
+    margin: auto;
+    background: rgb(8, 100, 185);
+    text-align: center;
+}
+
+.span-five{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 44px;
+    display: block;
+    padding: 80px 0 17px 0;
+    color: #648880;
+    text-align: left;
+}
+
+.span-six{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    display: block;
+    color: #a9b2b9;
+    text-align: left;
+}
+
+.span-seven{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    display: block;
+    padding: 30px 0;
+    color: #888888;
+    text-align: left;
+}
+
+.span-seven-{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    display: block;
+    padding: 30px 0 0 0;
+    color: #888888;
+    text-align: left;
+}
+
+.column-three {
+    flex: 66.66%;
+    margin: 0;
+    background: transparent;
+    text-align: left;
+}
+
+
+.box{
+    width: 280px;
+    height: 175px;
+    border: 3px solid #a9b2b9;
+    text-align: center;
+    display: block;
+}   
+
+/* img{
+    border-radius: 50%;
+    width: 132px;
+} */
+
+.span-eight{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #a9b2b9;
+}
+
+.speaker-info {
+    border: 1px solid #dfe2e5;
+    border-radius: 5px;
+    margin-top: 88px;
+    padding: 22px;
+    text-align: center;
+}
+  
+.speaker {
+    margin: 70px 0 44px 15px;
+}
+  
+.speaker-info img {
+    border-radius: 50%;
+    height: 130px;
+    margin: -66px 0 22px 0;
+    vertical-align: top;
+}
+
+footer{
+    width: 100%;
+    background-color: #293f50;
+
+}
+
+.column-five{
+    flex: 50%;
+    padding: 30px 0 30px 100px;
+    background-color: transparent;
+    text-align: left;
+    color: white;
+    display: inline;
+}
+
+.span-eight{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    display: block;
+    color: #648880;
+    /* padding: 50px; */
+}
+
+footer > div> nav > ul > li {
+    display: inline;
+    margin-right: 20px; 
+    font-size: 14px;
+    font-weight: 400;  
+    font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.speaker-info {
+    border: 1px solid #dfe2e5;
+    border-radius: 5px;
+    margin-top: 88px;
+    padding: 22px;
+    text-align: center;
+  }
+  
+  .speaker {
+    margin-bottom: 44px;
+  }
+  
+  .speaker-info img {
+    border-radius: 50%;
+    height: 130px;
+    margin: -66px 0 22px 0;
+    vertical-align: top;
+  }
